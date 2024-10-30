@@ -1,0 +1,187 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 10vh 10vh 80vh;
+    background-color: #0f0f0f;
+}
+
+aside{
+    grid-row: 1/4;
+    color: white;
+    display: grid;
+    gap: 25px;
+    align-content: start;
+}
+
+aside div {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+aside div i {
+    font-size: 20px;
+}
+
+.logo_div{
+    margin-top: -15px;
+}
+
+hr {
+    height: 1px;
+    color: gray;
+    margin: 0%;
+}
+
+image {
+    display: flex;
+    flex-direction: start;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.imgicons {
+    display: flex;
+    flex-direction: start;
+    width: 20px;
+    border-radius: 10px;
+}
+
+/* ......................header................................ */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.man {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.searchsection {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.searchsection form {
+    display: flex;
+    height: 6vh;
+}
+
+.searchsection form input {
+    width: 40vw;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid #222;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.searchsection button {
+    background-color: #222;
+    border: 1px solid #222;
+    width: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+header i {
+    font-size: 18px;
+}
+
+header button{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.mic {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #222;
+}
+
+.profilesection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ......................nav area........................... */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 10px;
+    overflow-x: auto;
+}
+
+nav a {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    text-wrap: nowrap;
+}
+/*removing the scrollbar for firefox and IE*/
+nav {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+/* removing the scrollbar for chrome, safari and opera */
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+.videocontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding:10px;
+}
+/* .videocontainer figure {
+    border: 1px solid white;
+} */
+
+.contentpics {
+    width: 100%;
+}
+
+.profilepics {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+figcaption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+figcaption p {
+    font-size: 17;
+}
+
